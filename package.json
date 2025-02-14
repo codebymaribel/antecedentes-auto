@@ -1,0 +1,34 @@
+{
+  "name": "antecedentes-auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts eslint src",
+    "format": "prettier --write .",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebymaribel/antecedentes-auto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codebymaribel/antecedentes-auto/issues"
+  },
+  "homepage": "https://github.com/codebymaribel/antecedentes-auto#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "eslint": "^9.20.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.1",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0"
+  },
+  "dependencies": {
+    "puppeteer": "^24.2.1"
+  }
+}
